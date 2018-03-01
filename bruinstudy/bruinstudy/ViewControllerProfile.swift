@@ -10,15 +10,17 @@ import UIKit
 
 class ViewControllerProfile: UIViewController {
     
+    var user: Person?
     @IBOutlet weak var fullName: UILabel!
     @IBOutlet weak var major: UILabel!
     @IBOutlet weak var gradYr: UILabel!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        fullName.text = user!.firstName + " " + user!.lastName
+        
     }
 
     override func didReceiveMemoryWarning() {
