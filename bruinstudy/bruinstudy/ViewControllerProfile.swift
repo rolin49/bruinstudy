@@ -9,7 +9,12 @@
 import UIKit
 
 class ViewControllerProfile: UIViewController {
-
+    
+    @IBOutlet weak var fullName: UILabel!
+    @IBOutlet weak var major: UILabel!
+    @IBOutlet weak var gradYr: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
