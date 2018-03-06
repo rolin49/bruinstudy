@@ -16,6 +16,7 @@
 		4337F87820353FF8004267FD /* bruinstudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4337F87720353FF8004267FD /* bruinstudyUITests.swift */; };
 		43A2B700203E65F1003585A8 /* ViewControllerSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A2B6FF203E65F1003585A8 /* ViewControllerSignup.swift */; };
 		43A2B702203E69F1003585A8 /* ViewControllerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A2B701203E69F1003585A8 /* ViewControllerProfile.swift */; };
+		72234DBC204E565C00E9C439 /* ViewControllerMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72234DBB204E565C00E9C439 /* ViewControllerMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4337F87920353FF8004267FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43A2B6FF203E65F1003585A8 /* ViewControllerSignup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSignup.swift; sourceTree = "<group>"; };
 		43A2B701203E69F1003585A8 /* ViewControllerProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerProfile.swift; sourceTree = "<group>"; };
+		72234DBB204E565C00E9C439 /* ViewControllerMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				4337F85720353FF8004267FD /* AppDelegate.swift */,
 				4337F85920353FF8004267FD /* ViewController.swift */,
 				4337F85B20353FF8004267FD /* Main.storyboard */,
+				72234DBB204E565C00E9C439 /* ViewControllerMessage.swift */,
 				43A2B701203E69F1003585A8 /* ViewControllerProfile.swift */,
 				43A2B6FF203E65F1003585A8 /* ViewControllerSignup.swift */,
 				4337F85E20353FF8004267FD /* Assets.xcassets */,
@@ -267,6 +270,7 @@
 			files = (
 				43A2B700203E65F1003585A8 /* ViewControllerSignup.swift in Sources */,
 				4337F85A20353FF8004267FD /* ViewController.swift in Sources */,
+				72234DBC204E565C00E9C439 /* ViewControllerMessage.swift in Sources */,
 				43A2B702203E69F1003585A8 /* ViewControllerProfile.swift in Sources */,
 				4337F85820353FF8004267FD /* AppDelegate.swift in Sources */,
 			);
